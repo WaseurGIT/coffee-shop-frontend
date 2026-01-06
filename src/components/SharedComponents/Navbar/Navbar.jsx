@@ -1,10 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <nav className="w-full bg-white shadow-md px-4 sm:px-8">
-      <div className="max-w-7xl mx-auto h-16 flex items-center justify-between">
-        
+      <div className="max-w-7xl mx-auto h-16 flex items-center justify-between relative">
         {/* Left - Logo */}
         <div className="flex items-center gap-2">
           <img
@@ -15,14 +15,20 @@ const Navbar = () => {
         </div>
 
         {/* Center - Title */}
-        <h1 className="absolute left-1/2 transform -translate-x-1/2 text-lg sm:text-xl font-semibold text-gray-800">
+        <Link
+          to="/"
+          className="absolute left-1/2 transform -translate-x-1/2 text-lg sm:text-xl font-semibold text-gray-800"
+        >
           Coffee Shop & Coffee POS
-        </h1>
+        </Link>
 
         {/* Right - Login Button */}
-        <button className="bg-brown-600 hover:bg-brown-700 text-white px-4 py-2 rounded-lg text-sm sm:text-base transition">
+        <Link
+          to="/login"
+          className="bg-[#6F4E37] hover:bg-[#5A3E2B] text-white px-4 py-2 rounded-lg text-sm sm:text-base transition"
+        >
           Login
-        </button>
+        </Link>
       </div>
     </nav>
   );
