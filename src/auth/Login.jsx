@@ -25,7 +25,7 @@ const Login = () => {
         toast: true,
         position: "top-end",
         icon: "success",
-        title: "Account Created Successfully",
+        title: `Welcome ${result.user.displayName}`,
         showConfirmButton: false,
         timer: 2000,
       });

@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../../contexts/AuthProvider";
 import { FiLogOut } from "react-icons/fi";
+import "./Navbar.css";
 
 const Navbar = () => {
   const { user, logOutUser } = useContext(AuthContext);

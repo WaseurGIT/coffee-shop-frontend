@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "name": "Coffee",
+    "image": "https://i.ibb.co.com/mr64z8hD/coffee-1.jpg"
+  },
+  {
+    "id": "2",
+    "name": "Tea",
+    "image": "https://i.ibb.co.com/WvSp6sGx/tea-1.jpg"
+  },
+  {
+    "id": "3",
+    "name": "Juice",
+    "image": "https://i.ibb.co.com/C3vFfWDQ/juice-1.jpg"
+  },
+  {
+    "id": "4",
+    "name": "Smoothie",
+    "image": "https://i.ibb.co.com/7d8Ck4St/smoothie.jpg"
+  },
+  {
+    "id": "5",
+    "name": "Bakery",
+    "image": "https://i.ibb.co.com/LX0T5bvB/bakery.jpg"
+  },
+  {
+    "id": "6",
+    "name": "Roasted Beans",
+    "image": "https://i.ibb.co.com/k2tj6ZrT/roasted-beans.jpg"
+  }
+]
