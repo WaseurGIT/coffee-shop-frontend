@@ -10,10 +10,8 @@ const ErrorPage = () => {
           "url('https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=1600&q=80')",
       }}
     >
-      {/* Overlay */}
       <div className="absolute inset-0 bg-black/60"></div>
 
-      {/* Content */}
       <div className="relative z-10 text-center text-white max-w-md">
         <h1 className="text-6xl font-bold mb-4">404</h1>
         <h2 className="text-2xl font-semibold mb-3">
