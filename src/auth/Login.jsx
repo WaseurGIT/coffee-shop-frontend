@@ -28,9 +28,7 @@ const Login = () => {
         </div>
 
         {/* Title */}
-        <h2 className="text-2xl font-bold text-center text-brown-600 mb-2">
-          Welcome Back
-        </h2>
+        <h2 className="text-2xl font-bold text-center mb-2">Welcome Back</h2>
         <p className="text-center text-gray-300 mb-6 text-sm">
           Login to Coffee Shop & Coffee POS
         </p>
@@ -76,7 +74,7 @@ const Login = () => {
         {/* Footer Links */}
         <div className="mt-4 text-center text-sm">
           <span className="">Don’t have an account?</span>{" "}
-          <Link to="/register" className="text-brown-600 hover:underline">
+          <Link to="/register" className="hover:text-[#6F4E37] hover:underline">
             Sign Up
           </Link>
         </div>
